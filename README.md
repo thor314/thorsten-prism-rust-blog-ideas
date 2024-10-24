@@ -13,6 +13,12 @@
   </a>
   </div>
 
+
+example of 3 software ideas, from [Thorsten Ball's prism blog post](https://registerspill.thorstenball.com/p/rust-prism):
+1. Usage of defer pattern in rust (inspired by go api maybe!)
+2. usage of select to implicitly await async code that may time out
+3. great error ergonomics with anyhow!
+
 <!-- This project was generated with [Thor's cargo generate template](https://github.com/thor314/tk-cargo-generate/) with features: -->
 <!-- - project-name: prism -->
 <!-- - description:  prism -->

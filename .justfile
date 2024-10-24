@@ -22,9 +22,6 @@ export RUST_LOG := "info"
 @just:
     just --list
 
-build:
-    cargo build -r
-
 check:
     cargo check --all --tests
     cargo fmt --all --check
@@ -37,12 +34,6 @@ fix:
 
 lint:
     cargo clippy --all --tests -- -D warnings
-
-run:
-    cargo run -r
-
-test:
-    cargo test --all -- --nocapture
 
 @versions:
     rustc --version
